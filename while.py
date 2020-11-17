@@ -71,7 +71,9 @@ while a:
 print(s)
 '''
 
-#в процессе
 a = int(input())
 b = int(input())
-while d % a != 0 or d % b != 0:
+d = a
+while res % b != 0:
+    d += a
+print(d)
