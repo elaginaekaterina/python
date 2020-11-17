@@ -74,6 +74,6 @@ print(s)
 a = int(input())
 b = int(input())
 d = a
-while res % b != 0:
+while d % b != 0:
     d += a
 print(d)
